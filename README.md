@@ -1,4 +1,4 @@
-# Cointegration-Based Pairs Trading Strategy
+# 📈📚 Cointegration-Based Pairs Trading Strategy
 
 ## Overview
 This repository contains the Python code for a **statistical arbitrage trading strategy** based on **cointegration analysis** between two time series. Our strategy is based on stocks  for companies the oil industry, but further extensions are possible in FX markets, other equity sectors or individual stock prices in differerent exchanges. 
@@ -7,13 +7,12 @@ Following the work of Engle & Granger (1987) and Vidyamurthy (2004), the strateg
 
 Using **Engle-Granger two-step cointegration testing**, we model the spread between two assets as:
 
-\[
-\text{Spread} = Y_t - (\alpha + \beta X_t)
-\] 
+### Spread Zₜ = Yₜ − (α + βXₜ)
+
 
 where \( Y_t \) and \( X_t \) are the log prices of two correlated assets.
 
-When the spread deviates significantly from its mean, a **mean-reversion trade** is triggered — going long the undervalued asset and short the overvalued one.
+When the spread deviates significantly from its mean, we trigger a **mean-reversion trade** — going long the undervalued asset and short the overvalued one.
 
 ---
 
