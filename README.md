@@ -1,4 +1,4 @@
- # 📈 Cointegration-Based Pairs Trading Strategy
+ # 📈 Cointegration-Based Pairs Trading Strategy 📚
 
 ## Overview
 This repository contains the Python code for a **statistical arbitrage trading strategy** based on **cointegration analysis** between two time series. Our strategy is based on stocks  for companies the oil industry, but further extensions are possible in FX markets, other equity sectors or individual stock prices in differerent exchanges. 
